@@ -15,6 +15,8 @@
 		1F448C0A2448E34B00318EBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F448C082448E34B00318EBB /* LaunchScreen.storyboard */; };
 		1F448C192448EA5F00318EBB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F448C182448EA5F00318EBB /* Default-568h@2x.png */; };
 		1F448C1B2448F01100318EBB /* ViewController+alertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F448C1A2448F01100318EBB /* ViewController+alertController.swift */; };
+		1F448C1D2448FBC300318EBB /* NetworkWeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F448C1C2448FBC300318EBB /* NetworkWeatherManager.swift */; };
+		1F448C1F2448FD5800318EBB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F448C1E2448FD5800318EBB /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		1F448C0B2448E34B00318EBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F448C182448EA5F00318EBB /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		1F448C1A2448F01100318EBB /* ViewController+alertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+alertController.swift"; sourceTree = "<group>"; };
+		1F448C1C2448FBC300318EBB /* NetworkWeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkWeatherManager.swift; sourceTree = "<group>"; };
+		1F448C1E2448FD5800318EBB /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,7 @@
 		1F448C132448E4A800318EBB /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				1F448C1C2448FBC300318EBB /* NetworkWeatherManager.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -109,6 +114,7 @@
 				1F448BFF2448E34700318EBB /* SceneDelegate.swift */,
 				1F448C062448E34B00318EBB /* Assets.xcassets */,
 				1F448C0B2448E34B00318EBB /* Info.plist */,
+				1F448C1E2448FD5800318EBB /* Constants.swift */,
 			);
 			path = "Supporting files";
 			sourceTree = "<group>";
@@ -187,8 +193,10 @@
 			files = (
 				1F448C022448E34700318EBB /* ViewController.swift in Sources */,
 				1F448C1B2448F01100318EBB /* ViewController+alertController.swift in Sources */,
+				1F448C1D2448FBC300318EBB /* NetworkWeatherManager.swift in Sources */,
 				1F448BFE2448E34700318EBB /* AppDelegate.swift in Sources */,
 				1F448C002448E34700318EBB /* SceneDelegate.swift in Sources */,
+				1F448C1F2448FD5800318EBB /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
