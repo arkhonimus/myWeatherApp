@@ -115,7 +115,7 @@
                         <outlet property="cityLabel" destination="dMM-bx-qx9" id="LqT-KA-OX2"/>
                         <outlet property="feelsLikeTemperatureLabel" destination="TKD-kB-cGa" id="QuO-ng-W8Z"/>
                         <outlet property="temperatureLabel" destination="GZB-iX-8fx" id="mGz-es-bxn"/>
-                        <outlet property="weatherIconImageView" destination="gWY-ze-bfc" id="g1M-Uj-u8d"/>
+                        <outlet property="weatherIconImageView" destination="59s-cQ-fPj" id="CmT-qg-6kd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
